@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: #1d1818;
+    line-height: 2;
+}
+
+#nav {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1em;
+    background-color: black;
+    color: #eee;
+    display: flex;
+}
+
+nav ul a{
+padding: 1em;
+color: steelblue;
+}
+
+nav a {
+    text-decoration:none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+li{
+    display: list-item;
+}
+div{
+    display: block; 
+}
+#banner{
+    background-color: blue;
+    background-image: url(images/camera.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 4em;
+    color: #fff;
+}
