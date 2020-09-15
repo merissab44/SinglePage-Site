@@ -3,6 +3,7 @@
 	<head>
 		<title>Merissa Bridgeman</title>
 		<link rel="stylesheet" href="styles.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 	<body>
 
@@ -28,31 +29,35 @@
 			</section>
 
 			<section id="photos">
-				<h2>Photos</h2>
+				<h3>Photos</h2>
 				<ul>
-					<li class="card" id="oceanBeach">
-						<h3>Ocean Beach</h3>
+					<li class="card" id="oceanBeach" data-aos="fade-right" data-aos-duration="5000">
+						<h3>Around the City</h3>
 						<p>took a walk with my bestfriend during sunrise.</p>
 					</li>
-					<li class="card" id="sanDiego">
-						<h3>San Diego Beach</h3>
+					<li class="card" id="sanDiego" data-aos="fade-down" data-aos-duration="5000">
+						<h3>LandScape</h3>
 						<p>I took this during spring break of 2019.</p>
 					</li>
-					<li class="card" id="alameda">
-						<h3>Alameda Beach</h3>
+					<li class="card" id="alameda" data-aos="fade-left" data-aos-duration="5000">
+						<h3>Black and White</h3>
 						<p>Caught the sunset during a walk.</p>
 					</li>
 				</ul>
 			</section>
 
-			<section id="topic-2">
-				<h2>Name of Section</h2>
-				<p>Some Text...</p>
+			<section id="About">
+				<h3>My Photography Journey</h2>
+				<p>I started doing Photography last year around December. I used to only take photos every now and then
+					but since quarantine I really took that up as a serious hobby. I started hiking around my city Oakland,CA
+					and that's when I realized how beautiful my city really was. That's when I became the most interested in landscape.
+					I want to try and get into different editing techniques like black and white, and more city photos.
+				</p>
 			</section>
 
-			<section id="topic-3">
+			<section id="Social">
 				<div>
-					<h2>Name of Section</h2>
+					<h3>Name of Section</h2>
 					<p>Some text...</p>
 				</div>
 				<figure>
@@ -81,6 +86,15 @@
 				</form>
 			</footer>
 		</main>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+		</script>
+
+		<script>
+			// Initialize Animate On Scroll
+			AOS.init();
+	 	</script>
+			 
 		
 	</body>
 </html>
